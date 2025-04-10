@@ -1,0 +1,31 @@
+{
+    "itineraries": [
+        {
+            "localizador": "XG3942",
+            "pasajero": {
+                "nombre": "Juan Pérez YT9421",
+                "id": "7529845783927"
+            },
+            "vuelos": [
+                {
+                    "vuelo": "8W347",
+                    "fecha": "25 Oct 2025",
+                    "origen": "Aeropuerto Internacional José Martí",
+                    "destino": "Aeropuerto Internacional Cheddi Jagan",
+                    "hora_salida": "08:12",
+                    "hora_llegada": "13:42"
+                },
+                {
+                    "vuelo": "8W512",
+                    "fecha": "12 Jul 2025",
+                    "origen": "Aeropuerto Internacional Cheddi Jagan",
+                    "destino": "Aeropuerto Internacional José Martí",
+                    "hora_salida": "05:25",
+                    "hora_llegada": "09:05"
+                }
+            ],
+            
+            "fecha_emision": "14 Mar 2025"
+        }
+    ]
+}
