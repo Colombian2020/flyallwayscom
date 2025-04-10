@@ -1,0 +1,501 @@
+/*
+Theme Name: Betheme Child
+Theme URI: https://themes.muffingroup.com/betheme
+Author: Muffin group
+Author URI: https://muffingroup.com
+Description: Child Theme for Betheme
+Template: betheme
+Version: 2.0
+*/
+*::after {
+  box-sizing: border-box;
+  /* 3 */ }
+
+
+
+.flight-booking-wrap button:hover,
+.flight-booking-wrap button:focus,
+.flight-booking-wrap input[type="button"]:hover,
+.flight-booking-wrap input[type="button"]:focus,
+.flight-booking-wrap .elementor-button:hover,
+.flight-booking-wrap .elementor-button:focus{
+    color: #FFFFFF;
+    background-color: transparent !important;
+    border-style: hidden;
+    border-color: transparent !important;
+	outline:transparent !important;
+}
+
+.flight-booking-wrap .submit:hover,
+.flight-booking-wrap .submit:focus
+{
+    color: #FFFFFF;
+    background-color: #E24E24 !important;
+    border-style: hidden;
+    border-color: #E24E24 !important;
+	outline:transparent !important;
+}
+
+.flatpickr-calendar .dayContainer {
+    width: auto !important;
+    min-width: auto !important;
+       max-width: 100% !important;
+}
+
+
+body .flatpickr-calendar {
+	width: 100%;
+	max-width: 370px;
+	margin-top: 5px
+}
+body span.flatpickr-weekday {
+	font-family: "Oswald";
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #9e9e9e;
+	font-size: 12px
+}
+body .flatpickr-day.flatpickr-disabled {
+	font-weight: 400;
+	color: #9e9e9e
+}
+body .flatpickr-day.selected {
+	background: #fff;
+	border-color: #192639;
+	color: #192639
+}
+body .flatpickr-day.selected:hover {
+	background: #fff;
+	border-color: #192639;
+	color: #192639
+}
+body .flatpickr-day.today {
+	background: #e5e5e5;
+	color: #192639;
+	border: none
+}
+body .flatpickr-day {
+	border-radius: 0;
+	font-weight: 600;
+	border: 0px!important
+}
+body .flatpickr-rContainer {
+	width: 100%
+}
+body .flatpickr-days {
+	width: 100%;
+	min-width: 100%
+}
+body .flatpickr-day {
+	max-width: 100%
+}
+body .dayContainer {
+	max-width: 100%;
+	width: 100%
+}
+.required.error {
+	border: 1px solid red
+}
+.flight-booking-wrap .form-row{
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+.flight-booking-wrap {
+    background: #edf3f9;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+#flight-booking .submit {
+	background: #00A4A4;
+	padding: 0;
+	border: 0;
+	width: 100%;
+	color: #fff;
+	font-family: 'Roboto', Helvetica, Arial, Lucida, font-family;
+	font-size: 18px;
+	cursor: pointer;
+	height: 48px;
+	line-height: 48px
+}
+.input-col.col-code {
+	flex: 0 0 25%
+}
+.form-row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between
+}
+.disable-col input {
+	background: #d8d7d7;
+	border: 2px solid #a5a5a5!important;
+	pointer-events: none
+}
+.input-col {
+	flex: 0 0 50%;
+	-ms-flex: 1;
+	padding: 0 5px;
+	margin-bottom: 10px;
+	min-height: 48px;
+	position: relative;
+	border-radius: 0px;
+}
+.col-33 .input-col {
+	flex: 0 0 33.33%
+}
+.col-submit {
+	flex: 0 0 50%
+}
+.input-col label {
+	/* font-family: "Roboto"; */
+	/* font-weight: 400; */
+	/* font-size: 14px; */
+	/* color: #17263a; */
+	margin-bottom: 0;
+}
+.col-date label {
+	position: absolute;
+	left: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+	padding: 0 15px;
+	pointer-events: none
+}
+.form-row.row-100 {
+	width: 100%
+}
+.form-row.row-50 {
+	width: 50%
+}
+.form-row.row-100.input-col {
+	padding: 0;
+	margin: 0
+}
+input[type="text"],
+input[type="date"],
+input[type="number"],
+.col-select .option {
+	width: 100%;
+	height: 48px;
+	box-shadow: none;
+	border: none;
+	line-height: 50px;
+	padding: 0 15px;
+	color: #17263a;
+}
+input[type="text"].input-date {
+	padding-right: 40px
+}
+.col-date:after {
+	content: "";
+	position: absolute;
+	top: 18px;
+	right: 30px;
+	width: 7px;
+	height: 7px;
+	border: 2px solid #17263a;
+	border-left: none;
+	border-top: none;
+	transform: rotate(45deg);
+	transform-origin: 50% 50%;
+	transition: opacity 0.2s;
+	z-index: 1;
+	transition: .2s all
+}
+input[type="number"] {
+	-webkit-appearance: textfield;
+	-moz-appearance: textfield;
+	appearance: textfield
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+	-webkit-appearance: none
+}
+.col-number label {
+	width: 100%;
+	/* color: #17263a; */
+	line-height: 1.2;
+}
+label span {
+	display: block;
+	font-size: 12px;
+	opacity: .8
+}
+.col-number {
+	background: #fff;
+	align-items: center;
+	display: flex;
+	padding: 0 15px;
+}
+.col-number input[type="number"] {
+	background: none;
+	margin-bottom: 0;
+	height: 50px;
+	float: left;
+	width: 35px;
+	text-align: center;
+	padding: 0;
+	color: #17263a;
+	font-weight: 500
+}
+.col-number button {
+	outline: none;
+	-webkit-appearance: none;
+	background-color: transparent;
+	border: none;
+	display: block;
+	display: -ms-flexbox;
+	vertical-align: middle;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	margin: 0;
+	position: relative;
+	background: none;
+	padding: 0;
+	height: 46px;
+	line-height: 46px;
+	width: 15px
+}
+.col-number button:before,
+.col-number button:after {
+	display: inline-block;
+	position: absolute;
+	content: '';
+	width: 10px;
+	height: 2px;
+	background-color: #17263a;
+	transform: translate(-50%, -50%)
+}
+.col-number button.stepup:after {
+	transform: translate(-50%, -50%) rotate(90deg)
+}
+.col-select {
+	position: relative;
+	transition: width 0.5s;
+	will-change: width
+}
+.select-container {
+	background: #fff;
+	border: 0px;
+	padding: 12px 15px;
+	border-radius: 0px;
+}
+.col-select.visible .select-container {
+	box-shadow: 2px 2px 6px rgba(0, 0, 0, .3);
+	z-index: 2;
+	border: 2px solid #192639
+}
+.col-select .option {
+	cursor: pointer;
+	background-color: transparent
+}
+.country_flight {
+	font-weight: 600
+}
+.col-select .option:not(:first-child) .info-wrap,
+.col-select.visible .option.active .info-wrap {
+	box-shadow: inset 0 2px 0 #e5e5e5
+}
+.col-select .option.active .info-wrap {
+	box-shadow: none
+}
+.col-select .option:not(.active) {
+	display: none;
+	opacity: 0;
+	transform: translateY(-50%)
+}
+.col-select.visible {
+	animation: bounce 1s;
+	width: 24em
+}
+.select-container {
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+}
+.col-select:before,
+.col-select:after {
+	content: "";
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	width: 7px;
+	height: 7px;
+	border: 2px solid #17263a;
+	transform: rotate(45deg);
+	transform-origin: 50% 50%;
+	transition: opacity 0.2s;
+	z-index: 1
+}
+.col-select:before {
+	border-left: none;
+	border-top: none;
+	top: 21px;
+}
+.col-select:after {
+	border-right: none;
+	border-bottom: none;
+	opacity: 0
+}
+.col-radio {
+	min-height: auto
+}
+.col-radio label {
+	display: inline-block;
+	position: relative;
+	padding-left: 22px;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	line-height: 16px;
+	margin-right: 15px;
+	font-size: 16px
+}
+.col-radio label input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0
+}
+.col-radio label .radio-check {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 14px;
+	width: 14px;
+	background-color: transparent;
+	border: 2px solid #E24E24;
+	border-radius: 50%;
+}
+.col-radio label:hover input~.radio-check {
+    background-color: #E24E24;
+}
+.col-radio label input:checked~.radio-check {
+	background-color: #E24E24;
+}
+
+body .flatpickr-current-month .flatpickr-monthDropdown-months {
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	height: 35px;
+	font-size: 15px;
+	font-weight: 600;
+	text-transform: capitalize;
+	display: inline-block;
+}
+body .flatpickr-current-month input.cur-year {
+	appearance: textfield;
+	-moz-appearance: textfield;
+	-webkit-appearance: textfield;
+	font-size: 15px;
+	font-weight: 600
+}
+body .flatpickr-current-month input.cur-year::-webkit-inner-spin-button,
+body .flatpickr-current-month input.cur-year::-webkit-outer-spin-button {
+	-webkit-appearance: none
+}
+body .flatpickr-calendar {
+	border-radius: 0;
+	border: 2px solid #17263a
+}
+body .flatpickr-months {
+	line-height: 1;
+	height: 50px
+}
+body .flatpickr-innerContainer {
+	padding: 5px
+}
+body .flatpickr-calendar:before,
+body .flatpickr-calendar:after {
+	display: none
+}
+body .flatpickr-months .flatpickr-prev-month,
+body .flatpickr-months .flatpickr-next-month {
+	fill: #fff
+}
+body .flatpickr-months .flatpickr-prev-month.flatpickr-prev-month,
+body .flatpickr-months .flatpickr-next-month.flatpickr-next-month {
+	background: #17263a;
+	top: 5px
+}
+body .flatpickr-months .flatpickr-prev-month.flatpickr-prev-month {
+	left: 5px
+}
+body .flatpickr-months .flatpickr-next-month.flatpickr-next-month {
+	right: 5px
+}
+.flight-booking-wrap input:not([type="button"]):not([type="submit"]),
+.flight-booking-wrap textarea,
+.flight-booking-wrap .elementor-field-textual {
+	background-color: #ffffff;
+	border-style: solid;
+	border-color: #ffffff;
+	border-radius: 0px;
+}
+body .flatpickr-months .flatpickr-prev-month.flatpickr-disabled,
+body .flatpickr-months .flatpickr-next-month.flatpickr-disabled {
+	pointer-events: none;
+	display: block;
+	opacity: .4
+}
+.col-date::-webkit-input-placeholder {
+	/* Chrome/Opera/Safari */
+	color: #17263a
+}
+.col-date::-moz-placeholder {
+	/* Firefox 19+ */
+	color: #17263a
+}
+.col-date:-ms-input-placeholder {
+	/* IE 10+ */
+	color: #17263a
+}
+.col-date:-moz-placeholder {
+	/* Firefox 18- */
+	color: #17263a
+}
+.book-ticket-section .header-content {
+	margin: 20px 0!important;
+	padding: 0!important
+}
+.flight-from .placeholder,
+.flight-to .placeholder,
+.col-date label,
+.col-number label {
+	/* font-weight: bold!important */
+}
+@media (max-width: 981px) {
+	.input-col {
+		flex: 0 0 100%
+	}
+	.flight-booking-wrap {
+		padding: 30px 10px
+	}
+	.input-col.col-code {
+		flex: 0 0 100%
+	}
+	body .flatpickr-calendar {
+		width: 90%;
+		left: 5%!important
+	}
+	.book-ticket-section .et_pb_fullwidth_header_container {
+		width: 90%
+	}
+}
+@media screen and (max-width: 1373px) {
+	#logo {
+		max-width: 160px
+	}
+}
+.flatpickr-calendar .flatpickr-day {
+    max-width: 45px;
+    height: 37px;
+    line-height: 37px;
+}
+
+/* End custom CSS *//* End custom CSS */

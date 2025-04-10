@@ -1,0 +1,76 @@
+{
+    "itineraries": [
+        {
+            "localizador": "JNKGVY",
+            "pasajero": {
+                "nombre": "OSCAR LOPEZ CARRILLO",
+                "id": "234234567456"
+            },
+            "vuelo1": {
+                "vuelo": "CPOHT7",
+                "fecha": "2025-04-27",
+                "origen": "Curacao",
+                "destino": "nord",
+                "hora_salida": "14:41",
+                "hora_llegada": "19:38"
+            },
+            "vuelo2": {
+                "vuelo": "N9PMLD",
+                "fecha": "2025-04-25",
+                "origen": "nord",
+                "destino": "Curacao",
+                "hora_salida": "14:40",
+                "hora_llegada": "18:39"
+            },
+            "fecha_emision": "09\/Apr\/25"
+        },
+        {
+            "localizador": "MH98VX",
+            "pasajero": {
+                "nombre": "JOSE LOPEZ",
+                "id": "737277373773"
+            },
+            "vuelo1": {
+                "vuelo": "PLU3KZ",
+                "fecha": "2025-04-01",
+                "origen": "Madrid",
+                "destino": "Caracas",
+                "hora_salida": "16:00",
+                "hora_llegada": "17:00"
+            },
+            "vuelo2": {
+                "vuelo": "S5RAAZ",
+                "fecha": "2025-04-10",
+                "origen": "Caracas",
+                "destino": "Madrid",
+                "hora_salida": "16:09",
+                "hora_llegada": "17:09"
+            },
+            "fecha_emision": "09\/Apr\/25"
+        },
+        {
+            "localizador": "91HB5T",
+            "pasajero": {
+                "nombre": "OSCAR LOPEZ CARRILLO",
+                "id": "234234567456"
+            },
+            "vuelo1": {
+                "vuelo": "G2ZUW9",
+                "fecha": "2025-05-03",
+                "origen": "Curacao",
+                "destino": "nord",
+                "hora_salida": "15:19",
+                "hora_llegada": "15:14"
+            },
+            "vuelo2": {
+                "vuelo": "QORCX6",
+                "fecha": "2025-04-26",
+                "origen": "nord",
+                "destino": "Curacao",
+                "hora_salida": "15:14",
+                "hora_llegada": "15:16"
+            },
+            "fecha_emision": "09\/Apr\/25"
+        }
+    ]
+}
